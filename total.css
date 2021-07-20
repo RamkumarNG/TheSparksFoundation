@@ -1,0 +1,400 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+#up
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url("boy.jpg");
+    background-size: cover;
+}
+#logo
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+#titleName
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    filter: drop-shadow(8px 8px 10px gray);
+
+}
+#text
+{
+    color:azure;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#quote_box
+{
+    position: absolute;
+    border: 2px solid white;
+    box-shadow: 100px;
+    top: 30%;
+    left: 100px;
+    height: 250px;
+    width: 500px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+#donateButton:hover
+{
+    transform: translateY(-5px);
+}
+#donateButton
+{
+    background-color: #4CAF50;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: transform 0.5s;
+}
+#quote_box #donateButton:hover
+{
+    background-color: azure;
+    color: #4CAF50;
+    cursor:pointer;
+}
+#out
+{
+    background-color:black;
+}
+.lower1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.upinfo
+{
+    position: absolute;
+    color: white;
+    opacity: 1;
+    text-align: justify;
+    top:20%;
+    left: 70%;
+    right: 10px;
+    padding-left: 30px;
+}
+#para
+{
+    word-spacing: 6px;
+    line-height: 27px;
+}
+#circle1
+{
+    position: absolute;
+    top: 800px;
+    left: 380px;
+    height: 200px;
+    width: 200px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+#circle2
+{
+    top: 1100px;
+    left: 75%;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+.info
+{
+    color: white;
+    text-align: justify;
+    word-spacing: 6px;
+    line-height: 27px;
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-left: 30%;   
+    
+}
+a
+{
+    text-decoration: none;
+}
+.donate2
+{
+    color: white;
+    text-align: justify;
+    width: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-left: 30%;
+}
+.donate2 h1
+{
+    font-size: 38px;
+}
+.donate2 p
+{
+    padding-top: 3px;
+    font-size: 17px;
+    text-align: justify;
+    word-spacing: 6px;
+    line-height: 27px;
+}
+
+#lower2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+#hch
+{
+    text-align: center;
+}
+#first,#third,#second
+{
+    border-radius: 10px;
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+    color: darkgreen;
+}
+#title
+{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: azure;
+}
+#image_para
+{
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: azure;
+}
+#box2,#box3
+{
+    margin-left:10px;
+}
+#box1,#box2,#box3
+{
+    border-radius:10px;
+    background: linear-gradient(to bottom right,rgba(7, 48, 17,0.7),rgba(0,0,0,0.3));
+    transition: transform 0.5s;
+}
+#box1:hover,#box2:hover,#box3:hover
+{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+@media (max-width: 980px)
+{
+    #lower2
+    {   
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    #hch
+    {
+        margin-top: 50px;
+        text-align: center;
+        color: azure;
+    }
+    #quote_box
+    {
+        top:20%;
+        left: 50px;
+        height: 50vh;
+        width: 80%;
+    }
+    #box1,#box2,#box3
+    {
+        margin-left:0;
+        margin-top:10px;
+        margin-right:10px;
+    }
+    #box2,#box3
+    {
+        margin-top: 50px;
+    }
+    #circle1,#circle2
+    {
+        display: none;
+    }
+}
+.forDonate
+{
+    color: beige;
+    margin-top: 100px;
+}
+.forDonate h3
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.forDonate h1
+{
+    margin-top: 20px;
+    text-align: center;
+}
+#button_background
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.donateButton2
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    font-size: 19px;
+    background-color: black;
+    color: darkgreen;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    filter: drop-shadow(8px 8px 10px darkgreen);
+    margin-bottom: 50px;
+}
+.donateButton2:hover
+{
+    background-color: green;
+    color: black;
+    cursor:pointer;
+}
+span
+{
+    color: darkgreen;
+}
+footer
+{
+    background-color: #191a19;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.social_media
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.copyright
+{
+    background-color: #1e211f;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: azure;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+#traingleBox
+{
+    position: absolute;
+    top:780px;
+    height: 70vh;
+    width: 360px;
+}
+#traingle1,#traingle2,#traingle3,#traingle4,#traingle5
+{
+    margin-top: 50px;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #0b521b;
+    opacity: 0.2;
+}
+#traingle2
+{
+    position: relative;
+    bottom: 100px;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+#traingle3
+{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+#traingle4
+{
+    position: relative;
+}
+#traingle5
+{
+    position: relative; 
+    float: right;
+    bottom: 150px;
+}
